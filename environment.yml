@@ -1,0 +1,30 @@
+name: git_repo_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - autopep8
+  - ipython
+  - notebook
+  - jupyter
+  - matplotlib
+  - numpy
+  - pytest
+  - pytest-cov
+  - nbconvert
+  - nbformat
+  - scipy
+  - scikit-learn
+  - setuptools
+  - six
+  - sphinx
+  - sympy
+  - pylint
+  - flake8
+  - yapf
+  - pip
+  - pip:
+    - jupyter_contrib_nbextensions
+    - control
+    - tensorflow
